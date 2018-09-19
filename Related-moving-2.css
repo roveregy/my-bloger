@@ -1,0 +1,106 @@
+#related-posts .owl-stage a{border-left:none!important;position:relative;padding:0!important;width:100%}
+
+#related-posts .owl-stage a img {
+    width: 100%!important;
+    transition: 1s ease;
+    border: none!important;
+    height: 200px!important;
+    max-width: 90%;
+    margin: 0px 13px;
+}
+#related-posts .owl-stage :hover a::before {
+  font-size: 40px;
+  visibility: visible;
+  transition: all 0.4s ease 0s;
+}
+#related-posts .owl-stage a::before {
+  color: #fff;
+  content: &quot;\f1d8&quot;;
+  font: 0px/195px fontawesome;
+  position: absolute;
+  text-align: center;
+  visibility: hidden;
+  width: 100%;
+  z-index: 4;
+  transition: all 0.4s ease 0s;
+  background-color: rgba(0, 0, 0, 0.42);
+}
+#related-posts .owl-stage .owl-item {
+    float: left;
+    overflow: hidden;
+    height: 213px;
+    padding: 0px;
+}
+.owl-stage-outer {
+  width: 100%;
+  overflow: hidden;
+}
+#related-posts .owl-stage a div {
+    position: absolute;
+    bottom: -5px;
+    padding: 10px!important;
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    width: 82%!important;
+background-color: rgba(0, 80, 240, 0.82);
+  /* background: linear-gradient(to right, grey 50%, yellow 2%) red;*/
+    line-height: 25px!important;
+    z-index: 9999;
+    margin: 0px 8px !important;
+    border-radius: 0px 0px 10px 10px;
+    margin: 0 auto !important;
+    margin-right: 13px !important;
+}
+.rel-tit p {
+  background: #F74047;
+  color: #fff;
+  font-size: 16px;
+  padding: 0 10px;
+  float: right;
+  margin-right: -6px;
+}
+#related-posts section.rel-tit {
+    padding: 0px 6px;
+    font-size: 17px;
+    position: relative;
+    overflow: hidden;
+    background: #0B6EAB;
+    margin: 0 5px;
+    margin-top: 10px;
+}
+.owl-nav {
+  margin-left: -5px;
+}
+#related-posts .owl-controls {
+  position: absolute;
+  bottom: 0px;
+  left: 5px;
+  background-color: #0B6EAB;
+  color: #fff;
+}
+#related-posts .owl-prev {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    line-height: 30px;
+    transition: .3s;
+    background: #F74047;
+    margin: 0px 5px;
+}
+#related-posts .owl-next {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    color: #FFF;
+    cursor: pointer;
+    line-height: 30px;
+    transition: .3s;
+    background: #03A9F4;
+    margin-left: 5px;
+}
+.widget,.widget-content,ul#mag-posts,li.recent-box,.recento,.tesk,.magp-thumb{height:100%;display:block;overflow:hidden}
