@@ -1,4 +1,4 @@
-var expDays = 30;
+var expDays = 31;
 var exp = new Date(); 
 exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
 function Who(info){
