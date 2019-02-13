@@ -4,7 +4,7 @@ exp.setTime(exp.getTime() + (expDays*24*60*60*1000));
 function Who(info){
 var VisitorName = GetCookie('VisitorName')
 if (VisitorName == null) {
-VisitorName = prompt("Who are you?");
+VisitorName = prompt("Welcome to Rover Egy Blog .. Let me know your name?");
 SetCookie ('VisitorName', VisitorName, exp);
 }
 return VisitorName;
@@ -37,7 +37,7 @@ SetCookie ('WWHCount', WWHCount, exp);
 return WWHCount;
 }
 function set(){
-VisitorName = prompt("Welcome to the Rover Egy Blog .. Let me know your name?");
+VisitorName = prompt("Welcome to Rover Egy Blog .. Let me know your name?");
 SetCookie ('VisitorName', VisitorName, exp);
 SetCookie ('WWHCount', 0, exp);
 SetCookie ('WWhenH', 0, exp);
